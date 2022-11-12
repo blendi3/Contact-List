@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(27, 24, 24);
+}
+
+.container{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    color: white;
+    height: auto;
+}
+
+#search{
+    height: 40px;
+    width: 330px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contacts {
+    margin-top: 1rem;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    background: rgb(39, 38, 38);
+    margin-bottom: .5rem;
+    padding: 1rem 15rem 1rem 1rem;
+}
+
+.mode{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mode img{
+    width: 50px;
+    padding: 1rem;
+    cursor: pointer;
+}
